@@ -1,0 +1,18 @@
+{
+  "image": "https://zoey-czy.github.io/liuhui/images/image001.jpg",
+  "username": "Hui Liu",
+  "location": "Beijing, China",
+  "officeLocation": "Office location: R1206, Central Building",
+  "email": "liuhui08@bit.edu.cn",
+  "education": "Professor",
+  "school": [
+    {
+      "name": "School of Computer Science and Technology",
+      "url": "https://cs.bit.edu.cn/"
+    },
+    {
+      "name": "Beijing Institute of Technology",
+      "url": "https://english.bit.edu.cn/"
+    }
+  ]
+}
