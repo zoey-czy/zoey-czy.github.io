@@ -22,7 +22,7 @@ function Students() {
   });
 
   const initStudents = () => {
-    return fetch("https://zoey-czy.github.io/liuhui/data/students.html")
+    return fetch("https://zoey-czy.github.io/data/students.html")
       .then((res) => res.text())
       .then((html) => {
         setStudentsHtml(html);

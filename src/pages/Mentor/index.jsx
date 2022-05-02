@@ -10,7 +10,7 @@ function Mentor() {
     initPersonal();
   }, []);
   const initPersonal = () => {
-    ajax.get("https://zoey-czy.github.io/liuhui/data/personal.json", {}, (res) => {
+    ajax.get("https://zoey-czy.github.io/data/personal.json", {}, (res) => {
       setPersonal(res);
     });
   };

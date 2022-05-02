@@ -16,7 +16,7 @@ function Research() {
     initCommunity();
   });
   const initCommunity = () => {
-    return fetch("https://zoey-czy.github.io/liuhui/data/community.xml")
+    return fetch("https://zoey-czy.github.io/data/community.xml")
       .then((res) => res.text())
       .then((html) => {
         setCommunityXml(html);
