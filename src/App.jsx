@@ -1,15 +1,16 @@
-import { Routes, Route, Link, useNavigate, useLocation } from "react-router-dom";
+import { Routes, Route, Link, useNavigate, useLocation, UNSAFE_NavigationContext } from "react-router-dom";
+
 import Home from "./pages/Home";
 import Students from "./pages/Students";
 import Mentor from "./pages/Mentor";
 import Research from "./pages/Research";
 import Contact from "./pages/Contact";
 import { Menu, Row, Col, Input, Divider } from "antd";
+
 import "./App.less";
 const { Search } = Input;
-
 function App() {
-  const menuDefaultSelectedKeys = useLocation().pathname.slice(1) || "Homepage";
+  let menuDefaultSelectedKeys = useLocation().pathname.slice(1) || "Homepage";
   const navigate = useNavigate();
   const items = [
     { label: "Homepage", key: "Homepage" },

@@ -1,14 +1,15 @@
 import { Carousel, Divider, Row, Col, Typography, Space } from "antd";
+import { useNavigate } from "react-router-dom";
 import "./index.less";
 import ResearchTextLoop from "./text-loop.jsx";
 const { Text, Link } = Typography;
-
 function App() {
+  const navigate = useNavigate();
   return (
     <div>
       <div>
         <Row>
-          <Col  xl={18}  >
+          <Col xl={18}>
             <Carousel autoplay dots={{ otsClass: "xxx" }} otsClass="xxx">
               <div>
                 <h3 className="contentStyle">
@@ -33,10 +34,10 @@ function App() {
               </div>
             </Carousel>
           </Col>
-          <Col xl={6}  >
+          <Col xl={6}>
             <div className="right-content" style={{ paddingLeft: 10 }}>
               <h2 className="text-color-primary">Welcome to the lab</h2>
-              <div>Research Direction</div>
+              <h3>Research Direction</h3>
               <div>Deep learning </div>
               <div>Software engineering </div>
               <div>Natural language </div>
@@ -78,9 +79,17 @@ function App() {
           </Col>
           <Col span={6}>
             <div style={{ height: 250 }}>
+            <h1 className="text-color-primary">Latest Research</h1>
+
               <ResearchTextLoop />
               <div style={{ textAlign: "right" }}>
-                <Link>more</Link>
+                <Link
+                  onClick={() => {
+                    navigate("/Research");
+                  }}
+                >
+                  more
+                </Link>
               </div>
             </div>
           </Col>

@@ -10,8 +10,8 @@ function Contact() {
         </Col>
         <Col xl={10}>
           <div style={{ margin: "0 10px" }}>
-            <h2>office:location R1206 contact building</h2>
-            <h2>Email:liuhui08@bit.edu.cn</h2>
+            <h2>office location: R1206 contact building</h2>
+            <h2><a href='mailto:liuhui08@bit.edu.cn'>liuhui08@bit.edu.cn</a></h2>
           </div>
         </Col>
       </Row>
