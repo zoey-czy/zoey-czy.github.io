@@ -31,13 +31,13 @@ function App() {
   };
   return (
     <div className="app">
-      <Row justify="space-between" align="bottom">
-        <Col flex="120px">
+      <Row justify="space-between" align="middle">
+        <Col flex="100px">
           <img style={{ width: 88 }} src={require("../src/image/cslogo2.jpg")} alt="" />
         </Col>
-        <Col flex="auto">
-          <h2 className="text-color-primary">Institute of Software Intelligence </h2>
-          <h2 className="text-color-primary">and Software Engineering</h2>
+        <Col flex="calc(100% - 400px)" className="title">
+          <div className="text-color-primary">Institute of Software Intelligence </div>
+          <div className="text-color-primary">and Software Engineering</div>
         </Col>
         <Col flex="300px">
           <Search placeholder="input search text" allowClear onSearch={onSearch} style={{ width: 300 }} />

@@ -40,7 +40,7 @@ function SearchList(props) {
 
   return (
     <div>
-      搜索关键词：<span>{searchVal}</span>
+      Search Keywords：<span>{searchVal}</span>
       {list.map((val) => {
         return (
           <div key={val.url}>

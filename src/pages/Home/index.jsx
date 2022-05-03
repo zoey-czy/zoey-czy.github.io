@@ -54,7 +54,7 @@ function App() {
 
       <div className="links-warp">
         <Row>
-          <Col span={18}>
+          <Col xl={18}>
             <h1 className="text-color-primary">Links</h1>
             <div className="link">
               <Link target="_blank" href="https://www.bit.edu.cn/">
@@ -77,9 +77,9 @@ function App() {
               </Link>
             </div>
           </Col>
-          <Col span={6}>
+          <Col xl={6}>
             <div style={{ height: 250 }}>
-            <h1 className="text-color-primary">Latest Research</h1>
+            <h1 className="text-color-primary text-orange-500	">Latest Research</h1>
 
               <ResearchTextLoop />
               <div style={{ textAlign: "right" }}>
