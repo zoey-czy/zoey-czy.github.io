@@ -1,14 +1,17 @@
-import { Routes, Route, Link, useNavigate, useLocation, UNSAFE_NavigationContext } from "react-router-dom";
-
+import { Routes, Route, Link, useNavigate, useLocation } from "react-router-dom";
+import React, { useState } from "react";
 import Home from "./pages/Home";
 import Students from "./pages/Students";
 import Mentor from "./pages/Mentor";
 import Research from "./pages/Research";
 import Contact from "./pages/Contact";
+import SearchList from "./pages/SearchList";
+import Memo from "./pages/Memo";
 import { Menu, Row, Col, Input, Divider } from "antd";
 
 import "./App.less";
 const { Search } = Input;
+let ChildRef = React.createRef();
 function App() {
   let menuDefaultSelectedKeys = useLocation().pathname.slice(1) || "Homepage";
   const navigate = useNavigate();
@@ -18,9 +21,13 @@ function App() {
     { label: "Students", key: "Students" },
     { label: "Research", key: "Research" },
     { label: "Contact", key: "Contact" },
+    { label: "Memo", key: "Memo" },
+    
   ];
-  const onSearch = () => {
-    console.log("x");
+  var [SearchVal, setSearchVal] = useState("");
+  const onSearch = (v) => {
+    navigate("/Search");
+    setSearchVal(v);
   };
   return (
     <div className="app">
@@ -52,6 +59,8 @@ function App() {
         <Route path="/Students" element={<Students />} />
         <Route path="/Research" element={<Research />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Memo" element={<Memo />} />
+        <Route path="/Search" element={<SearchList SearchVal={SearchVal} onRef={ChildRef} />} />
       </Routes>
     </div>
   );
