@@ -79,7 +79,7 @@ function App() {
           </Col>
           <Col xl={6}>
             <div style={{ height: 250 }}>
-            <h1 className="text-color-primary text-orange-500	">Latest Research</h1>
+            <h1 className="text-color-primary">Latest Research</h1>
 
               <ResearchTextLoop />
               <div style={{ textAlign: "right" }}>
