@@ -1,7 +1,7 @@
-import { useState, useImperativeHandle, useEffect } from "react";
+import { useState,  useEffect } from "react";
 import { Link } from "react-router-dom";
 import data from "./data";
-function searchAll(str, val) {
+function searchAll(str, val) { //要匹配的内容，搜索的关键词
   var arr = str.split(val);
   arr = arr.slice(1, arr.length);
   return arr.map((data) => {
@@ -14,7 +14,7 @@ function searchAll(str, val) {
 }
 function SearchList(props) {
   let [list, setList] = useState([]);
-  let [searchVal, setSearchVal] = useState([]);
+  let [searchVal, setSearchVal] = useState("");
 
   useEffect(() => {
     if (props.SearchVal) {

@@ -11,8 +11,6 @@ function domToString(node) {
 }
 
 function Students() {
-  const [studentsHtml, setStudentsHtml] = useState("");
-
   const [doctoralHtml, setDoctoralHtml] = useState("");
   const [masterHtml, setMasterHtml] = useState("");
   const [formerDoctoralHtml, setFormerDoctoralHtml] = useState("");
@@ -25,7 +23,6 @@ function Students() {
     return fetch("https://zoey-czy.github.io/data/students.html")
       .then((res) => res.text())
       .then((html) => {
-        setStudentsHtml(html);
         var box = document.createElement("div");
         box.innerHTML = html;
         let doctoralHtml = domToString(box.querySelector(".Seg_DoctoralStudents"));

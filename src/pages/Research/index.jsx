@@ -9,7 +9,6 @@ function domToString(node) {
   return str;
 }
 function Research() {
-  const [communityXml, setCommunityXml] = useState("");
   const [DeepXml, setDeepHtmlHtml] = useState("");
   const [SoftwareXml, setSoftwareHtml] = useState("");
   useEffect(() => {
@@ -19,7 +18,6 @@ function Research() {
     return fetch("https://zoey-czy.github.io/data/community.xml")
       .then((res) => res.text())
       .then((html) => {
-        setCommunityXml(html);
         var box = document.createElement("div");
         box.innerHTML = html;
         let DeepXml = domToString(box.querySelector(".Seg_Deep"));

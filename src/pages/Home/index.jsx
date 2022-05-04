@@ -10,7 +10,7 @@ function App() {
       <div>
         <Row>
           <Col xl={18}>
-            <Carousel autoplay dots={{ otsClass: "xxx" }} otsClass="xxx">
+            <Carousel autoplay>
               <div>
                 <h3 className="contentStyle">
                   <a href="https://liuhuigmail.github.io/">
@@ -80,7 +80,6 @@ function App() {
           <Col xl={6}>
             <div style={{ height: 250 }}>
             <h1 className="text-color-primary">Latest Research</h1>
-
               <ResearchTextLoop />
               <div style={{ textAlign: "right" }}>
                 <Link

@@ -7,9 +7,9 @@ function Memo() {
   let [list, setList] = useState(listCache);
   const formRef = useRef(null);
   const onDelete = (index) => {
-    list.splice(index, 1);
-    setList([...list]);
-    updateCache();
+    list.splice(index, 1); //删除数据
+    setList([...list]); //更新页面
+    updateCache(); //更新缓存
   };
   const onFinish = (values) => {
     list.push({
@@ -53,8 +53,7 @@ function Memo() {
             </div>
           );
         })}
-        {list.length<=0?(<div className="noData">No data available, please click the button below to add</div>):null
-      }
+        {list.length <= 0 ? <div className="noData">No data available, please click the button below to add</div> : null}
       </div>
       <Form
         ref={formRef}

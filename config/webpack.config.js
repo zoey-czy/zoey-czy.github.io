@@ -55,8 +55,6 @@ const cssRegex = /\.css$/;
 const cssModuleRegex = /\.module\.css$/;
 const lessRegex = /\.less$/;
 const lessModuleRegex = /\.module\.less$/;
-const sassRegex = /\.(scss|sass)$/;
-const sassModuleRegex = /\.module\.(scss|sass)$/;
 
 const hasJsxRuntime = (() => {
   if (process.env.DISABLE_NEW_JSX_TRANSFORM === "true") {
@@ -179,10 +177,10 @@ module.exports = function (webpackEnv) {
     devtool: isEnvProduction ? (shouldUseSourceMap ? "source-map" : false) : isEnvDevelopment && "cheap-module-source-map",
     // These are the "entry points" to our application.
     // This means they will be the "root" imports that are included in JS bundle.
-    entry: paths.appIndexJs,
+    entry: paths.appIndexJs,//入口
     output: {
       // The build folder.
-      path: paths.appBuild,
+      path: paths.appBuild,//打包之后的文件
       // Add /* filename */ comments to generated require()s in the output.
       pathinfo: isEnvDevelopment,
       // There will be one main bundle, and one file per asynchronous chunk.
@@ -451,44 +449,7 @@ module.exports = function (webpackEnv) {
                 },
               }),
             },
-            // Opt-in support for SASS (using .scss or .sass extensions).
-            // By default we support SASS Modules with the
-            // extensions .module.scss or .module.sass
-            // {
-            //   test: sassRegex,
-            //   exclude: sassModuleRegex,
-            //   use: getStyleLoaders(
-            //     {
-            //       importLoaders: 3,
-            //       sourceMap: isEnvProduction ? shouldUseSourceMap : isEnvDevelopment,
-            //       modules: {
-            //         mode: "icss",
-            //       },
-            //     },
-            //     "sass-loader"
-            //   ),
-            //   // Don't consider CSS imports dead code even if the
-            //   // containing package claims to have no side effects.
-            //   // Remove this when webpack adds a warning or an error for this.
-            //   // See https://github.com/webpack/webpack/issues/6571
-            //   sideEffects: true,
-            // },
-            // // Adds support for CSS Modules, but using SASS
-            // // using the extension .module.scss or .module.sass
-            // {
-            //   test: sassModuleRegex,
-            //   use: getStyleLoaders(
-            //     {
-            //       importLoaders: 3,
-            //       sourceMap: isEnvProduction ? shouldUseSourceMap : isEnvDevelopment,
-            //       modules: {
-            //         mode: "local",
-            //         getLocalIdent: getCSSModuleLocalIdent,
-            //       },
-            //     },
-            //     "sass-loader"
-            //   ),
-            // },
+            
             /**
              * less-xx
              */
