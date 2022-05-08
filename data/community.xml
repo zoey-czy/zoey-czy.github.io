@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ul>
+    <li class='Seg_Deep'>
+      <h3>Deep Learning-based Software Engineering （中国计算机学会推荐A类顶级国际期刊/会议）</h3>
+      <ul class='no_list_style'>
+        <li>
+          [1].  <span class='bold'>Hui Liu*</span>, Mingzhu Shen, Jiaqi Zhu, Nan Niu, Ge Li and Lu Zhang, "<a href='https://ieeexplore.ieee.org/document/9173704'>Deep Learning Based Program Generation from Requirements Text: Are We There Yet?</a>" in IEEE Transactions on Software Engineering (IEEE TSE), Online 2020 [<a href='https://github.com/ds4an/CoDas4CG'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [2].  Lin Jiang, <span class='bold'>Hui Liu*</span>, He Jiang, Lu Zhang and Hong Mei, "<a href='https://ieeexplore.ieee.org/document/9171589'>Heuristic and Neural Network based Prediction of Project-Specific API Member Access,</a>" in IEEE Transactions on Software Engineering (IEEE TSE), Online 2020) [<a href='https://github.com/CC-CG/HeeNAMA'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [3].  Lin. Jiang, <span class='bold'>Hui Liu*</span>, and He Jiang, "<a href='https://ieeexplore.ieee.org/document/8952208'>Machine Learning Based Recommendation of Method Names: How Far are We</a>",34th IEEE/ACM International Conference on Automated Software Engineering (ASE), San Diego, CA, USA, 2019, pp. 602-614. [<a href='https://github.com/Method-Name-Recommendation/HeMa'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [4].  <span class='bold'>Hui Liu*</span>, Jiahao Jin, Zhifeng Xu, Yifan Bu, Yanzhen. Zou and Lu Zhang, "<a href='https://ieeexplore.ieee.org/document/8807230'>Deep Learning Based Code Smell Detection</a>", in IEEE Transactions on Software Engineering (IEEE TSE), vol. 47, no. 09, pp. 1811-1837, 2021. DOI: 10.1109/TSE.2019.2936376 [<a href='https://github.com/liuhuigmail/DeepSmellDetection'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [5].  <span class='bold'>Hui Liu</span>; Zhifeng Xu; Yanzhen Zou, "<a href='https://ieeexplore.ieee.org/document/8999996'>Deep Learning Based Feature Envy Detection</a>", 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE), Montpellier, France, 2018, pp. 385-396 [<a href='https://github.com/liuhuigmail/FeatureEnvy'>Tools and Dataset</a>]
+        </li>
+      </ul>
+    </li>
+    <li class='Seg_Software'>
+      <h3>Software Evolution and Software Quality （中国计算机学会推荐A类顶级国际期刊/会议）</h3>
+      <ul class='no_list_style'>
+        <li>
+         [1].    Li Leping, <span class='bold'>Hui Liu*</span>, Li Kejun, Jiang Yanjie and Sun, Rui. "<a href='https://ieeexplore.ieee.org/document/9720157'> Generating Concise Patches for Newly Released Programming Assignments</a>," in IEEE Transactions on Software Engineering, Online 2022, doi: 10.1109/TSE.2022.3153522. [<a href="https://github.com/CoPaGe/FeedbackExperimentTask">Tools and Dataset</a>]
+        </li>
+        <li>
+          [2].  Yinchen Tian, Yuxia Zhang*, Klaas-Jan Stol, Lin Jiang, <span class='bold'>Hui Liu*</span>. What makes a Good Commit Message. 44th International Conference on Software Engineering (ICSE 2022), to appear.
+        </li>
+        <li>
+          [3].  Yuxia Zhang, <span class='bold'>Hui Liu</span>, Xin Tan, Minghui Zhou, Zhi Jin, and Jiaxin Zhu. 2022. Turnover of Companies in OpenStack: Prevalence and Rationale. ACM Transactions on Software Engineering and Methodology (TOSEM), to appear
+        </li>
+        <li>
+          [4].  Zedong Peng, Prachi Rathod, Nan Niu, Tanmay Bhowmik, <span class='bold'>Hui Liu</span>, Lin Shi, and Zhi Jin. <a href='https://liuhuigmail.github.io/publishedPappers/RE2021.pdf'>Environment-Driven Abstraction Identification for Requirements-Based Testing</a>. IEEE 29th International Requirements Engineering Conference (RE2021), pp. 245-256 <span class='text'>BEST PAPER AWARD</span>!
+        </li>
+        <li>
+          [5].  Yanjie Jiang, <span class='bold'>Hui Liu*</span>, Yuxia Zhang, Nan Niu, Yuhai Zhao Lu Zhang. <a href='https://2021.esec-fse.org/details/fse-2021-papers/85/Which-Abbreviations-Should-Be-Expanded-'>Which Abbreviations Should Be Expanded?</a> The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), pp.578-589, 2021
+        </li>
+        <li>
+          [6].  Yanjie Jiang, <span class='bold'>Hui Liu*</span>, Nan Niu, Lu Zhang, Yamin Hu. <a href='https://liuhuigmail.github.io/publishedPappers/ICSE2021.pdf'>Extracting Concise Bug-Fixing Patches from Human-Written Patches in Version Control Systems.</a> The 43rd International Conference on Software Engineering (ICSE), pp. 686-698, 2021 [<a href='https://github.com/jiangyanjie/BugBuilder/blob/main/Implementation/BugBuilder/ICSE/getDiffCommit.java'>Tools</a>][<a href='https://github.com/liuhuigmail/GrowingBugRepository'>Bug Repository</a>]
+        </li>
+        <li>
+          [7].  <span class='bold'>Hui Liu</span>, Minzhu Shen, Jiahao Jin, Yanjie Jiang. <a href='https://dl.acm.org/doi/10.1145/3395363.3397355'>Automated Classification of Actions in Bug Reports of Mobile Apps</a>. The 29th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA), July 18-22, 2020, Los Angeles, CA, USA [<a href='https://github.com/sakura182/Maca'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [8].  Yanjie. Jiang, <span class='bold'>Hui Liu*</span>, Jiahao Jin and Lu. Zhang, "<a href='https://ieeexplore.ieee.org/document/9096573'>Automated Expansion of Abbreviations Based on Semantic Relation and Transfer Expansion,</a>" in IEEE Transactions on Software Engineering (IEEE TSE), Online 2020 [<a href='https://github.com/DataPublic/TransferExpander'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [9].  Yangjie Jiang, <span class='bold'>Hui. Liu*</span>, Jiaqi Zhu and Lu Zhang, "<a href='https://ieeexplore.ieee.org/document/8454758'>Automatic and Accurate Expansion of Abbreviations in Parameters,</a>" in IEEE Transactions on Software Engineering (IEEE TSE), vol. 46, no. 7, pp. 732-747, 1 July 2020 [<a href='https://github.com/liuhuigmail/ParameterAbbreviation'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [10].  Yanjie Jiang, <span class='bold'>Hui Liu*</span>, and Lu Zhang. 2019. <a href='https://dl.acm.org/doi/10.1145/3338906.3338929'>Semantic Relation based Expansion of Abbreviations.</a> In Proceedings of the 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2019). Association for Computing Machinery, New York, NY, USA, 131-141[<a href='https://github.com/4DataShare/AbbExpansion'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [11]. <span class='bold'>Hui Liu*</span>, Jiahao Jin, Zzhifeng Xu, Yifan Bu, Yanzhen. Zou and Lu Zhang, "<a href='https://ieeexplore.ieee.org/document/8807230'>Deep Learning Based Code Smell Detection</a>", in IEEE Transactions on Software Engineering (IEEE TSE), Online 2019. [<a href='https://github.com/liuhuigmail/DeepSmellDetection'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [12]. He Jiang, Dong Liu, Xin Chen, <span class='bold'>Hui Liu</span>, and Hong Mei. <a href='https://dl.acm.org/doi/10.1109/ICSE-Companion.2019.00090'>How Are Design Patterns Concerned by Developers?</a> In Proceedings of the 41st International Conference on Software Engineering: Companion Proceedings (ICSE '19). IEEE Press, 232-233.
+          </li>
+        <li>
+          [13]. <span class='bold'>Hui Liu</span>; Zhifeng Xu; Yanzhen Zou, "<a href='https://ieeexplore.ieee.org/document/8999996'>Deep Learning Based Feature Envy Detection</a>", 33rd IEEE/ACM International Conference on Automated Software Engineering (ASE), Montpellier, France, 2018, pp. 385-396 [<a href='https://github.com/liuhuigmail/FeatureEnvy'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [14]. <span class='bold'>Hui Liu*</span>, Qiurong Liu, Cristian-Alexandru Staicu, Michael Pradel, Yue Luo. <a href='https://ieeexplore.ieee.org/document/7886980'>Nomen est Omen: Exploring and Exploiting Similarities between Argument and Parameter Names</a>. The 38th International Conference on Software Engineering (ICSE), 1063-1073，May 14 - 22, 2016, Austin, TX, USA)
+        </li>
+        <li>
+          [15]. <span class='bold'>Hui Liu*</span>, Qiurong Liu, Zhendong Niu, Yang Liu. <a href='https://ieeexplore.ieee.org/document/7337457'>Dynamic and Automatic Feedback-Based Threshold Adaptation for Code Smells Detection</a>, IEEE Transactions on Software Engineering (IEEE TSE), vol.42, no.6, pp.544-558, 2016[<a href='https://liuhuigmail.github.io/tools/feedbackTSE.zip'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [16]. <span class='bold'>Hui Liu*</span>, Qiurong Liu, Yang Liu, Zhouding Wang, <a href='https://ieeexplore.ieee.org/document/7097720'>Identifying Renaming Opportunities by Expanding Conducted Rename Refactorings</a>, IEEE Transactions on Software Engineering (IEEE TSE), vol.41, no.9, pp.887-900, Sept. 1 2015 [<a href='https://liuhuigmail.github.io/tools/rename/index.htm'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [17]. <span class='bold'>Hui Liu*</span>, Xue Guo, and Weizhong Shao, <a href='https://ieeexplore.ieee.org/document/6409360'>Monitor-based Instant Software Refactoring</a>, IEEE Transactions on Software Engineering (IEEE TSE), Volume 39, No. 8, pp. 1112-1126, Aug., 2013 [<a href='https://liuhuigmail.github.io/tools/InsRefactor.htm'>Tools and Dataset</a>]
+        </li>
+        <li>
+          [18]. <span class='bold'>Hui Liu*</span>, Zhiyi Ma, Weizhong Shao, and Zhendong Niu, <a href='https://ieeexplore.ieee.org/document/5680918'>Schedule of Bad Smell Detection and Resolution: A New Way to Save Effort</a>, IEEE Transactions on Software Engineering (IEEE TSE), vol.38, no.1, pp.220-235, Jan.-Feb. 2012
+        </li>
+        <li>
+          [19]. <span class='bold'>Hui Liu</span>, Limei Yang, Zhendong Niu, Zhyi Ma, and Weizhong Shao. <a href='https://dl.acm.org/doi/10.1145/1595696.1595738'>Facilitating Software Refactoring with Appropriate Resolution Order of Bad Smells</a>. Proceedings of the 7th joint meeting of the European software engineering conference and the ACM SIGSOFT symposium on the foundations of software engineering (ESEC/FSE '09), August 2009, Pages 265-268 (short paper)
+        </li>
+        <li>
+          [20]. <span class='bold'>Hui Liu</span>, Ge Li*, Zhiyi Ma*, and Weizhong Shao*. <a href='https://dl.acm.org/doi/10.1145/1321631.1321716'>Scheduling of Conflicting Refactorings to Promote Quality Improvement</a>. In Proceedings of the twenty-second IEEE/ACM international conference on Automated software engineering (ASE '07). Association for Computing Machinery, New York, NY, USA, 489-492. (short paper)
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
