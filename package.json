@@ -54,7 +54,6 @@
     "react-text-loop-next": "0.0.3",
     "resolve": "^1.20.0",
     "resolve-url-loader": "^4.0.0",
-    
     "semver": "^7.3.5",
     "source-map-loader": "^3.0.0",
     "style-loader": "^3.3.1",

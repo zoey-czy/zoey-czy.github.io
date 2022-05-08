@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Collapse } from "antd";
+import { Collapse ,BackTop} from "antd";
 const { Panel } = Collapse;
 function domToString(node) {
   let tmpNode = document.createElement("div");
@@ -26,6 +26,16 @@ function Research() {
         setSoftwareHtml(SoftwareXml);
       });
   };
+  const style = {
+    height: 40,
+    width: 40,
+    lineHeight: "40px",
+    borderRadius: 4,
+    backgroundColor: "#1088e9",
+    color: "#fff",
+    textAlign: "center",
+    fontSize: 14,
+  };
   return (
     <div>
       <Collapse bordered={false} defaultActiveKey={["1"]}>
@@ -35,6 +45,9 @@ function Research() {
           </h2> 
             <Collapse bordered={false} defaultActiveKey={["1",'2']}>
               <Panel header="Deep Learning-based Software Engineering （中国计算机学会推荐A类顶级国际期刊/会议）" key="1">
+              <BackTop>
+          <div style={style}>UP</div>
+        </BackTop>
                 <div dangerouslySetInnerHTML={{ __html: DeepXml }} />
               </Panel>
               <Panel header="Software Evolution and Software Quality （中国计算机学会推荐A类顶级国际期刊/会议）" key="2">

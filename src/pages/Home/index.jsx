@@ -13,21 +13,21 @@ function App() {
             <Carousel autoplay>
               <div>
                 <h3 className="contentStyle">
-                  <a href="https://liuhuigmail.github.io/">
+                  <a href="https://liuhuigmail.github.io/" target="_blank">
                     <img className="img" src={require("../../image/b1.jpg")} alt="" />
                   </a>
                 </h3>
               </div>
               <div>
                 <h3 className="contentStyle">
-                  <a href="https://liuhuigmail.github.io/publishedPappers/RE2021.pdf" target="_blank">
+                  <a href="https://ieeexplore.ieee.org/document/9720157" target="_blank">
                     <img className="img" src={require("../../image/b2.jpg")} alt="" />
                   </a>
                 </h3>
               </div>
               <div>
                 <h3 className="contentStyle">
-                  <a href="https://ieeexplore.ieee.org/document/9720157" target="_blank">
+                  <a href="https://liuhuigmail.github.io/publishedPappers/RE2021.pdf" target="_blank">
                     <img className="img" src={require("../../image/b3.jpg")} alt="" />
                   </a>
                 </h3>
@@ -79,7 +79,7 @@ function App() {
           </Col>
           <Col xl={6}>
             <div style={{ height: 250 }}>
-            <h1 className="text-color-primary">Latest Research</h1>
+              <h1 className="text-color-primary">Latest Research</h1>
               <ResearchTextLoop />
               <div style={{ textAlign: "right" }}>
                 <Link

@@ -1,4 +1,4 @@
-import { Collapse, Divider } from "antd";
+import { Collapse, BackTop } from "antd";
 const { Panel } = Collapse;
 import { useState, useEffect } from "react";
 import "./index.less";
@@ -35,6 +35,16 @@ function Students() {
         setFormerMasterHtml(formerMasterHtml);
       });
   };
+  const style = {
+    height: 40,
+    width: 40,
+    lineHeight: "40px",
+    borderRadius: 4,
+    backgroundColor: "#1088e9",
+    color: "#fff",
+    textAlign: "center",
+    fontSize: 14,
+  };
 
   return (
     <div className="students">
@@ -46,18 +56,21 @@ function Students() {
         <Panel header="Master Students" key="2">
           <div className="Seg_MasterStudents" dangerouslySetInnerHTML={{ __html: masterHtml }} />
         </Panel>
+       
         <Panel header="Former Students" key="3">
+        <BackTop>
+          <div style={style}>UP</div>
+        </BackTop>
           <div className="former_students">
-          <Collapse bordered={false} defaultActiveKey={["1", "2"]}>
-            <Panel header="Doctoral" key="1">
-              <div dangerouslySetInnerHTML={{ __html: formerDoctoralHtml }} />
-            </Panel>
-            <Panel header="Master" key="2">
-              <div dangerouslySetInnerHTML={{ __html: formerMasterHtml }} />
-            </Panel>
-          </Collapse>
+            <Collapse bordered={false} defaultActiveKey={["1", "2"]}>
+              <Panel header="Doctoral" key="1">
+                <div dangerouslySetInnerHTML={{ __html: formerDoctoralHtml }} />
+              </Panel>
+              <Panel header="Master" key="2">
+                <div dangerouslySetInnerHTML={{ __html: formerMasterHtml }} />
+              </Panel>
+            </Collapse>
           </div>
-         
         </Panel>
       </Collapse>
     </div>
